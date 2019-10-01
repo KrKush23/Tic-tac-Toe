@@ -1,26 +1,52 @@
-
-.container{
-  height: 320px;
-  width: 320px;
-  margin: auto;
-  margin-top: 100px;
-}
-.row{
-  height: 100px;
-}
-.col{
-  height: 100px;
-  width: 100px;
-  float: left;
-  text-align: center;
-  font-size: 100px;
-  line-height: 100px;
-}
-]
-.border-b{
-  border-bottom: 10px solid #f8a978;
-}
-.border-r{
-  border-right: 10px solid #f8a978;
+html {
+    font-family : Candara;
 }
 
+body {
+    background : lightcyan;
+    margin : 0;
+    padding : 0;
+    height : 100vh;   
+}
+
+.container {
+    width : 320px;
+    height : 320px;
+    margin : auto;
+    margin-top : 100px;
+}
+
+h1 {
+    text-align : center;
+    font-size : 50px;
+}
+
+.row {
+    height : 100px;
+}
+
+.col {
+    height : 100px;
+    width : 100px;
+    float : left;
+    font-size : 100px;
+    text-align : center;
+    line-height : 100px;
+}
+
+.col:hover {
+    background : lightslategray;
+    transition : 0.8s;
+}
+
+.border-b {
+    border-bottom : 10px solid black;
+}
+
+.border-r {
+    border-right : 10px solid black;
+}
+
+.winner {
+    color : lightseagreen;
+}
