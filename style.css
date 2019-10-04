@@ -3,10 +3,10 @@ html {
 }
 
 body {
-    background : lightcyan;
+    background : white;
     margin : 0;
     padding : 0;
-    height : 100vh;   
+    height : 100vh;
 }
 
 .container {
